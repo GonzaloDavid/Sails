@@ -5,7 +5,6 @@
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
  */
 module.exports = {
-
   attributes: {
     nombre: {
       type: 'string',
@@ -20,5 +19,5 @@ module.exports = {
       via: 'usuarioIdFK'
     }
   },
-
 };
+
