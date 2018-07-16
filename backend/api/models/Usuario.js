@@ -6,7 +6,7 @@
  */
 module.exports = {
   attributes: {
-    nombre: {
+   /* nombre: {
       type: 'string',
       required: true
     },
@@ -17,7 +17,7 @@ module.exports = {
     pulsaciones: {
       collection: 'Pulsacion',
       via: 'usuarioIdFK'
-    }
+    }*/
   },
 };
 

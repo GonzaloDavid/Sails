@@ -51,7 +51,20 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
-  },
+  }/*,
+  mysql: {
+    adapter   : 'sails-mysql',
+    host      : '127.0.0.1',
+    port      : 3306,
+    user      : 'root',
+    password  : 'david',
+    database  : 'usuarios',
+    // Optional
+    charset   : 'utf8',
+    collation : 'utf8_spanish_ci',
+    url: 'mysql://root@localhost:3306/usuarios',
+  }
 
 
+*/
 };
