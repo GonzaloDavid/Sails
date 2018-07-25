@@ -14,7 +14,7 @@ module.exports = {
       type: 'string',
       required: true
     },
-    pulsaciones: {
+    pulsaci ones: {
       collection: 'Pulsacion',
       via: 'usuarioIdFK'
     }*/
