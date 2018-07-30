@@ -6,18 +6,13 @@
  */
 module.exports = {
   attributes: {
-   /* nombre: {
-      type: 'string',
-      required: true
-    },
-    apellido: {
-      type: 'string',
-      required: true
-    },
-    pulsaci ones: {
-      collection: 'Pulsacion',
-      via: 'usuarioIdFK'
-    }*/
+
+    TipoUsuario: {type: 'string', required: true},
+    Nombre: {type: 'string', required: true},
+    Apellido: {type: 'string', required: true},
+    correo: {type: 'string', required: true},
+    telefono: {type: 'string', required: true},
+    Password: {type: 'string', required: true}
   },
 };
 
