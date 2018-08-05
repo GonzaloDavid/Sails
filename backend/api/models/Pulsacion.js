@@ -10,7 +10,7 @@ module.exports = {
 
   attributes: {
     nombre: {type: 'string', required: true},
-    edad: {type: 'string', required: true}
+    accion: {type: 'string', required: true}
     /*usuarioIdFK: { model: 'Usuario' type: 'string' }*/
   },
 
