@@ -41,7 +41,8 @@ module.exports.routes = {
 
   'get /help': 'PulsacionController.controller',
   'get /help/:id': 'PulsacionController.params',
-  'post /pulsacion': 'PulsacionController.compare'
+  'post /pulsacion': 'PulsacionController.compare',
+  'post /pulsacion1': 'PulsacionController.enviar'
 
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗

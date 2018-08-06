@@ -37,5 +37,26 @@ module.exports = {
     }
 
   },
+  enviar: function(req, res) {
+    //npm i require
+    const request = require('request');
+    //0 si es igual
+    //-1 si no es igual
+    console.log('Enviar datos');
+
+    const objetoRequest = {
+      url: 'http://localhost:1338/usuarioRasberry',
+      form: {
+        nombre: req.body.nombre,
+        accion: req.body.accion,
+
+
+        // usuarioIdFK: 'como estas'// USEN EL SUYO
+      }
+    };
+    request
+      .post(objetoRequest)
+    return res.send(req.body);
+  },
 };
 
